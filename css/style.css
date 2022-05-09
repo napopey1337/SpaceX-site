@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* обнуление стилей */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,700;1,900&display=swap");
+* {
+		padding: 0;
+		margin: 0;
+		border: 0;
+}
+
+*, *:before, *:after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+}
+
+:focus, :active {
+		outline: none;
+}
+
+a:focus, a:active {
+		outline: none;
+}
+
+nav, footer, header, aside {
+		display: block;
+}
+
+html, body {
+		height: 100%;
+		width: 100%;
+		font-size: 100%;
+		line-height: -1;
+		font-size: 14px;
+		-ms-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+		font-family: inherit;
+}
+
+input::-ms-clear {
+		display: none;
+}
+
+button {
+		cursor: pointer;
+}
+
+button::-moz-focus-inner {
+		padding: 0;
+		border: 0;
+}
+
+a, a:visited {
+		text-decoration: none;
+}
+
+a:hover {
+		text-decoration: none;
+}
+
+ul li {
+		list-style: none;
+}
+
+img {
+		vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		font-size: inherit;
+		font-weight: 400;
+}
+
+body {
+		background-color: #000;
+		min-width: 1170px;
+}
+
+.main {
+		width: 1270px;
+		margin: 0 auto;
+}
+
+.main__header {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+}
+
+.main__logo img {
+		max-width: 200px;
+}
+
+.btn {
+		font-size: 14px;
+		color: white;
+		font-family: "Roboto", sans-serif;
+		-webkit-transition: 0.3s;
+		transition: 0.3s;
+}
+.btn:hover {
+		color: #326CF9;
+}
+
+.main__menu__btn {
+		margin: 0 10px;
+}
+
+.main__info__btn {
+		margin: 0 10px;
+		color: #808080;
+}
+
+.main__title {
+		margin-top: 50px;
+		color: white;
+		font-size: 64px;
+		text-align: center;
+		font-family: "Roboto", sans-serif;
+}
+
+.main__text {
+		text-align: center;
+		color: #808080;
+		font-size: 16px;
+		font-family: "Roboto", sans-serif;
+		margin-top: 20px;
+		line-height: 22.4px;
+		position: relative;
+}
+.main__text::after {
+		content: "";
+		height: 50px;
+		width: 2px;
+		background-color: #fff;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin: -80px 0;
+}
+
+.baground-image {
+		text-align: center;
+		margin-top: 40px;
+}
+
+.baground-image img {
+		width: 100%;
+}
+
+.second-page {
+		width: 1170px;
+		margin: 0 auto;
+}
+
+.second-page__container {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+
+.second-page__image {
+		height: 600px;
+}
+
+.second-page__title {
+		margin-top: 500px;
+}
+
+.title {
+		color: white;
+		font-size: 34px;
+		font-family: "Roboto", sans-serif;
+}
+
+.second-page__about__text {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+
+.second-page__text {
+		margin-top: 30px;
+}
+
+.text {
+		font-weight: 300;
+		color: white;
+		font-family: "Roboto", sans-serif;
+		line-height: 33px;
+}
+
+.second-page__subtext {
+		margin-left: 40px;
+		margin-top: 30px;
+}
+
+.subtext {
+		color: #808080;
+		font-family: "Roboto", sans-serif;
+		line-height: 33px;
+}
+
+.container {
+		margin-top: 300px;
+}
+
+.container h2 {
+		font-weight: 500;
+}
+
+.container__text {
+		margin-top: 40px;
+		color: white;
+		font-family: "Roboto", sans-serif;
+		font-size: 20px;
+}
+
+.footer {
+		margin-top: 400px;
+		text-align: center;
+}
+
+.footer__logo {
+		width: 200px;
+}
+
+.footer__nav__btn {
+		margin: 0 10px;
+}
+
+.footer__text {
+		color: #808080;
+		font-size: 16px;
+		font-family: "Roboto", sans-serif;
+		margin-top: 20px;
+}
+
+.footer__btn {
+		margin: 40px 0;
+}
+
+.footer__contact__btn {
+		padding: 15px 80px;
+		color: white;
+		font-size: 20px;
+		border-radius: 5px;
+		font-family: "Roboto", sans-serif;
+		border: 2px solid #fff;
+}
